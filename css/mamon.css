@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*header*/
+
+.header {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+/*navigation bar*/
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+
+}
+
+.links {
+    text-decoration: none;
+    color: #202020;
+}
+
+.nav_option {
+    margin-left: 15px;
+}
+
+.nav_btn {
+    /* Rectangle */
+    background: #5528FF;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+
+}
+
+/*logo*/
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo_img {
+    display: block;
+    width: 58px;
+    height: 58px;
+    background-image: url(img/mamon-logo.svg);
+    margin-right: 20px;
+}
+
+.logo_text {
+    font-size: 24px;
+    color: #202020;
+    font-weight: 700;
+}
+
+.page_btn {
+    background-color: #5528ff;
+    border-radius: 10px;
+    padding: 10px 35px;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+}
+
+/*pages*/
+.page {
+    padding-top: 40px;
+    padding-bottom: 150px;
+    position: relative;
+}
+
+.page_h1 {
+
+    font-size: 56px;
+    color: #202020;
+    font-weight: 700;
+
+}
+
+.page_paragraph {
+
+    font-size: 32px;
+    line-height: 1.5;
+    color: #4f4f4f;
+}
+
+.page_h2 {
+
+    position: absolute;
+    top: -24px;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #fff;
+    padding: 5px 15px;
+    color: #C2C2C2;
+
+}
+
+
+.page_wrap {
+
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+
+}
+
+/*First page*/
+.page-top {
+    border-top: 1px solid #C2C2C2;
+}
+
+/*services*/
+
+.services_title {
+
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.services_paragraph {
+
+    font-size: 14px;
+    color: #B2B2B2;
+    line-height: 1.5;
+}
+
+.services {
+
+    display: grid;
+    grid-template: 50% 50% / 50% 50%;
+}
+
+.services-item {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.services_img {
+    text-align: center;
+    flex-basis: 120px;
+}
+
+.services_text {
+
+    flex-basis: calc(100% - 120px);
+}
+
+/*CLIENTS*/
+
+.clients {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(4, 25%);
+    text-align: center;
+    grid-row-gap: 40px;
+}
+
+/*TEAM*/
+
+.team {
+    display: grid;
+    grid-template: repeat(3, 1fr)/repeat(3, 33%);
+    text-align: center;
+    margin-top: 20px;
+    grid-row-gap: 40px;
+}
+
+.team-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.team-item img {
+    margin-right: 20px;
+}
+
+.team-item h3 {
+    font-size: 28px;
+    line-height: 28px;
+    margin: 0;
+
+
+}
+
+.team_text {
+    flex-basis: calc(100% - 120px);
+    text-align: left;
+
+
+}
+
+.team-item p {
+    font-size: 14px;
+    color: #b2b2b2;
+
+}
+
+/*FOOTER*/
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #F7F7F7;
+}
+
+.social {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.social > li {
+    margin-left: 15px;
+}
+
+.social > li > a {
+    text-decoration: none;
+    color: #B2B2B2;
+    font-size: 24px;
+}
+
+.box-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
